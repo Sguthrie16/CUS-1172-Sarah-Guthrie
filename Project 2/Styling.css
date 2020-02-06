@@ -1,0 +1,58 @@
+<style media="screen">
+
+  body{
+    font-family: 'Quicksand', sans-serif;
+  }
+  .parts{
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+
+
+  #header{
+    font-family: 'Merriweather', serif;
+    background-image:url(https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+    background-position:70% 40%;
+    background-size:110%;
+    padding:7em;
+    opacity:.7;
+  }
+
+  /* Basic Information */
+  .column_intro {
+    float: left;
+    width: 70%;
+    padding: 15px;
+  }
+  .column_profile_pic {
+    float: left;
+    width: 30%;
+    padding: 15px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .important_info{
+    color:#FF8C00;
+  }
+
+
+
+  h1{
+    color:white;
+    font-size:10em;
+    text-align:center;
+  }
+  h2{
+    text-align:left;
+    color:#9a619e;
+  }
+  h3{
+    text-align: left;
+  }
+
+
+
+</style>

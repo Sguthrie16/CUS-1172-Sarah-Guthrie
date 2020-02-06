@@ -1,34 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<style media="screen">
-  body{
-    font-family: 'Quicksand', sans-serif;
-  }
-  #header{
-    font-family: 'Merriweather', serif;
-    background-image:url(https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
-    background-position:70% 40%;
-    background-size:110%;
-    padding:7em;
-    opacity:.7;
-  }
-  #header h1{
-    color:white;
-    font-size:10em;
-  }
-  #about_me{
-    color:#9a619e;
-  }
-  .basic_info{
-    color:#FF8C00;
-  }
-</style>
+
 
 <head>
   <title>CUS1172</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Styling.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
@@ -36,37 +15,42 @@
 <body>
 <!-- Menu -->
   <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-      <ul class="nav navbar-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#profile_information">Profile</a></li>
-        <li><a href="#general_interest">General Interest</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#work_experince">Work Experience</a></li>
-        <li><a href="#programming_skills">Program Skills</a></li>
-        <li><a href="#favorites">Favorites</a></li>
-        <li><a href="#website">Favorite Website</a></li>
-        <li><a href="#website">Favorite website</a></li>
-        <li><a href="#projects">Projects</a></li>
-      </ul>
-    </div>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Menu">
+          <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
+          </svg>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="Menu">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#profile_information">Profile</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#work_experince">Work Experience</a></li>
+          <li><a href="#programming_skills">Program Skills</a></li>
+          <li><a href="#favorites">Favorites</a></li>
+          <li><a href="#website">Favorite Website</a></li>
+          <li><a href="#website">Favorite website</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </div>
   </nav>
 
 <!-- header -->
-  <div class="jumbotron text-center" id="header">
+  <div id="header">
     <h1>CUS 1172</h1>
   </div>
 
 
 <!-- Basic profile information -->
-  <div class="container" id="profile_information">
-    <div class="page-header">
+  <div id="profile_information" class="parts">
       <h2>About Me</h2>
-    </div>
+      <hr>
     <div class="row">
-      <div class="col-lg-8 text-center" style="padding-top:40px;">
-          <p>My name is Sarah Guthrie and I am a current <span class="basic_info">
-            senior </span>at St. John's University. I am majoring in <span class="basic_info">
+      <div id="basic_info" class="column_intro" style="padding-top:40px;">
+          <p>My name is Sarah Guthrie and I am a current <span class="important_info">
+            senior </span>at St. John's University. I am majoring in <span class="important_info">
               computer science with a concntration in cyber security.</span>
               I have always enjoyed the front end aspect of coding as opposed to back end,
               because it allows me to demonstrate my creative side. This semester rather
@@ -77,29 +61,27 @@
               my coding languages. Last semeester I was able to learn python in CUS 1166 with
               professor Christoforo and hope that I can grow on that.  </span> </p>
       </div>
-      <div class="col-lg-4">
+      <div class="column_profile_pic">
         <img src="https://images.unsplash.com/photo-1483884105135-c06ea81a7a80?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ" width=100% style="border:2px gray solid;">
       </div>
-
-  </div>
-  <!-- General interest -->
-  <div class="containter" id="general_interest">
-    <div class="page-header">
-      <h2>General Interests</h2>
     </div>
-    <ul>
-      <li>I really enjoy baking and trying new recipes</li>
-      <li>I find joy in painting and doing artistic things, even if i am not the best</li>
-    </ul>
   </div>
 
-
-
+<!-- General interest -->
+<div class="parts" id=general_interest>
+  <h2>General Interests</h2>
+  <hr>
+  <ul>
+    <li>I really enjoy baking and trying new recipes</li>
+    <li>I find joy in painting and doing artistic things, even if i am not the best</li>
+  </ul>
+</div>
 
 <!-- Education -->
-  <div class="container" id="education">
-    <div class="page-header">
+  <div class="parts" id="education">
+    <div>
       <h2>Education</h2>
+      <hr>
     </div>
     <div class="row">
       <h4 class="col-lg-10">St.John's University</h4>
@@ -117,9 +99,10 @@
       and as wokring on getting my CelleBrite certificate.</p>
   </div>
 <!-- Work Experience -->
-  <div class="container" id="work_experince">
-    <div class="page-header">
+  <div class="parts" id="work_experince">
+    <div>
       <h2>Work Experience</h2>
+      <hr>
     </div>
     <ul>
       <h3><b>Protiviti</b></h3>
@@ -130,9 +113,10 @@
     </ul>
   </div>
 <!-- Programming skills -->
-  <div class="container-fluid" id="programming_skills">
-    <div class="page-header">
+  <div class="parts" id="programming_skills">
+    <div>
       <h2>Language</h2>
+      <hr>
     </div>
     <table class="table table-striped table-bordered">
       <thead>
@@ -168,9 +152,10 @@
   </div>
 
   <!-- General Interest -->
-  <div class="containter" id="general_interest">
-    <div class="header">
+  <div class="parts" id="general_interest">
+    <div>
       <h2>Interest</h2>
+      <hr>
     </div>
     <div class="text-center">
 
@@ -179,9 +164,10 @@
   </div>
 
 <!-- Favorites -->
-<div class="container text-center"id="favorites">
-  <div class="page-header">
+<div class="parts text-center"id="favorites">
+  <div>
     <h2>Favorites</h2>
+    <hr>
   </div>
   <div class="row">
 
@@ -208,16 +194,18 @@
 
 
 <!-- Favorite website -->
-  <div class="conatiner text-center" id="website">
-    <div class="page-header">
+  <div class="parts text-center" id="website">
+    <div>
       <h2>Favorite Website</h2>
+      <hr>
     </div>
-    <h3>Youtube is my favorite website and can be access <a href="https://youtube.com" target="_blank"> <br><span class="btn btn-default"> here </span></a> </h3>
+    <h3>Youtube:</h3>
     <p>Youtube is a website that allows you to share and view videos. they have many different categories and can accomidate all interest.</p>
+    <a href="https://youtube.com" target="_blank"><span class="btn btn-default"> here </span></a>
   </div>
 
 <!-- Projects -->
-  <div class="container text-center" id="projects">
+  <div class="parts text-center" id="projects">
     <div class="page-header">
       <h2>Projects</h2>
     </div>
