@@ -38,7 +38,65 @@
     color:#FF8C00;
   }
 
+/* Education */
+  .column_college{
+    float:left;
+    width:85%;
+    padding-left: 15px;
+  }
+  .column_graduation{
+    float:left;
+    width:15%;
+  }
 
+  /* Programming Skills */
+  table, td, th {
+  border: 1px solid #ddd;
+  text-align: left;
+  }
+  th, td {
+  padding: 15px;
+  }
+  table{
+    width:100%;
+  }
+  .column_form_input{
+    float:left;
+    width:90%;
+    padding:15px;
+  }
+  .column_form_submit{
+    float:left;
+    width:10%;
+  }
+  .button{
+    background-color:rgba(213, 189, 214, 0.46);
+    border: 2px solid white;
+    border-radius: 5px
+    color:white;
+    padding:15px;
+    text-align:center;
+  }
+
+  /* Favorites */
+  .column_favorites{
+    float:left;
+    width:33%;
+    padding:15px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Projects */
+  .content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
 
   h1{
     color:white;
@@ -52,6 +110,7 @@
   h3{
     text-align: left;
   }
+
 
 
 

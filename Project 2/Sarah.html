@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="Styling.css">
+  <link rel="stylesheet" href="./Styling.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
@@ -26,6 +26,7 @@
         <ul class="nav navbar-nav">
           <li><a href="#">Home</a></li>
           <li><a href="#profile_information">Profile</a></li>
+          <li><a href="#general_interest">General Interest</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#work_experince">Work Experience</a></li>
           <li><a href="#programming_skills">Program Skills</a></li>
@@ -84,10 +85,10 @@
       <hr>
     </div>
     <div class="row">
-      <h4 class="col-lg-10">St.John's University</h4>
-      <h5 class="col-lg-2">Fall 2016-Spring 2020</h5>
+      <h4 class="column_college">St.John's University</h4>
+      <h5 class="column_graduation">Fall 2016-Spring 2020</h5>
     </div>
-    <h5 >Bachelor of Science in Computer Science with a concentration in Cyber Security </h5>
+    <h5><em>Bachelor of Science in Computer Science with a concentration in Cyber Security </em></h5>
     <p>Throughout my four years at St. John's I have taken classes ranging in many different subjects.
       Through my major I have taken classes covering many topics within computer sciecne.
       I have taken recently software enginering, computer archietecture, and database.
@@ -98,6 +99,7 @@
       Within my cyber security classesI have acquired a Mobilyzer certificate given by Blackhat
       and as wokring on getting my CelleBrite certificate.</p>
   </div>
+
 <!-- Work Experience -->
   <div class="parts" id="work_experince">
     <div>
@@ -112,13 +114,14 @@
       <li>Create final deliverables to help client better evaluate, and analyze results of application security risk assessments to be used enterprise-wide </li>
     </ul>
   </div>
+
 <!-- Programming skills -->
   <div class="parts" id="programming_skills">
     <div>
       <h2>Language</h2>
       <hr>
     </div>
-    <table class="table table-striped table-bordered">
+    <table>
       <thead>
         <tr>
           <th>Language</th>
@@ -140,53 +143,47 @@
         </tr>
       </tbody>
     </table>
+    <br>
     <form  method=GET action="https://www.google.com" target="_blank">
           <label for="language">What language would you like to learn</label>
           <div class="row">
-            <div class="form-group col-lg-8">
+            <div class="column_form_input">
               <input type="text" name="language"class="form-control" placeholder="I would like to learn...  because...">
             </div>
-            <button type="submit" class="btn btn-primary col-lg-2">Learn more</button>
+            <button type="submit" class="column_form_submit button">Learn more</button>
         </div>
   </form>
   </div>
 
   <!-- General Interest -->
   <div class="parts" id="general_interest">
-    <div>
-      <h2>Interest</h2>
-      <hr>
-    </div>
-    <div class="text-center">
-
-    </div>
-
+    <h2>Interest</h2>
+    <hr>
+    <ul>
+      <li>I really enjoy baking and trying new recipes</li>
+      <li>I find joy in painting and doing artistic things, even if i am not the best</li>
+    </ul>
   </div>
 
 <!-- Favorites -->
-<div class="parts text-center"id="favorites">
-  <div>
-    <h2>Favorites</h2>
-    <hr>
-  </div>
-  <div class="row">
-
-<!-- Favorite Movie-->
-<div class="col-lg-4" style="border-right:2px gray solid;">
-<iframe width="350" height="500" src="https://www.youtube.com/embed/44NbaCl6AKw">
-</iframe>
-</div>
-
-<!-- Favorite Song -->
-
-    <div class="col-lg-4 text-center border" style="border-right:2px gray solid;">
-      <iframe width="350" height="500" src="https://www.youtube.com/embed/dAgLxv8R1Yc"></iframe>
-    </div>
-
-<!-- Favorite TV -->
-    <div class="col-lg-4">
-      <iframe src="https://www.youtube.com/embed/sRXg3eo6WJ0" width="350" height="500"></iframe>
-  </div>
+  <div class="parts" id="favorites">
+  <h2>Favorites</h2>
+  <hr>
+    <div class="row">
+      <!-- Favorite Movie-->
+        <div class="column_favorites" style="border-right:2px gray solid;">
+        <iframe width="350" height="500" src="https://www.youtube.com/embed/44NbaCl6AKw">
+        </iframe>
+        </div>
+      <!-- Favorite Song -->
+        <div class="column_favorites" style="border-right:2px gray solid;">
+          <iframe width="350" height="500" src="https://www.youtube.com/embed/dAgLxv8R1Yc"></iframe>
+        </div>
+      <!-- Favorite TV -->
+          <div class="column_favorites">
+            <iframe src="https://www.youtube.com/embed/sRXg3eo6WJ0" width="350" height="500"></iframe>
+        </div>
+      </div>
 </div>
 
 
@@ -194,51 +191,44 @@
 
 
 <!-- Favorite website -->
-  <div class="parts text-center" id="website">
-    <div>
+  <div class="parts" id="website">
       <h2>Favorite Website</h2>
       <hr>
-    </div>
     <h3>Youtube:</h3>
-    <p>Youtube is a website that allows you to share and view videos. they have many different categories and can accomidate all interest.</p>
-    <a href="https://youtube.com" target="_blank"><span class="btn btn-default"> here </span></a>
+    <p>Youtube is a website that allows you to share and view videos. They have many different categories and can accomidate all interest.<a href="https://youtube.com" target="_blank"><span class="button">Click her to visit</span></a></p>
   </div>
 
-<!-- Projects -->
-  <div class="parts text-center" id="projects">
-    <div class="page-header">
+  <!-- Projects -->
+    <div class="parts" id="projects">
       <h2>Projects</h2>
-    </div>
-    <div class="text-center">
+      <hr>
       <h3> <b>Create an HTML Page</b></h3>
       <h4>Due 02-06-2020</h4>
-      <button data-toggle="collapse" data-target="#descrption">Descrption</button>
-      <div id="descrption" class="collapse">
-      <p>To begin with, you must create a simple HTML page. The HTML page will serve as your online profile page for this course (similar to your public profile on LinkedIn, for example). The page must be organized into sections, as follows:
-1.Basic profile information section: This section should include your basic information, such as your name, your major and or minor; the section should also include a profile picture (you can use an avatar picture if you prefer).
-2.Education summary section: The section should include a short paragraph about your
-education and a list of your degrees or diplomas (if any).
-3.Work Experience/Internships section: A bullet-point list of your work experience and/or
-any project you worked on.
-4.Programming Skills section: Summarize your programming skills. List all programming
-languages you have used in the past and indicate level of experience in each anguage.
-5.General Interests section: Summarize your interest and hobbies.
-6.Favorite song, film, and TV show section: Showcase videos with your favorite song, your favorite movie and your favorite TV show.
-7.Favorite Website section: In this section, provide a list that link to your favorite website or online post. Make sure these links open in a new tab in the browser. For each link provide a short description of what this website is about.
-7.Menu section: The menu section should provide a should provide
-8.My Projects in this course: This section will serve as your project’s index list. It should
-include a list summarizing each project you completed in this project in this course. You will update this section as we progress in the course. summarized what project linking to all your projects and assignments you create in this course. To begin with, include a link to this page
+        <button data-toggle="collapse" data-target="#descrption">Descrption</button>
+        <div id="descrption" class="collapse">
+        <p>To begin with, you must create a simple HTML page. The HTML page will serve as your online profile page for this course (similar to your public profile on LinkedIn, for example). The page must be organized into sections, as follows:
+  1.Basic profile information section: This section should include your basic information, such as your name, your major and or minor; the section should also include a profile picture (you can use an avatar picture if you prefer).
+  2.Education summary section: The section should include a short paragraph about your
+  education and a list of your degrees or diplomas (if any).
+  3.Work Experience/Internships section: A bullet-point list of your work experience and/or
+  any project you worked on.
+  4.Programming Skills section: Summarize your programming skills. List all programming
+  languages you have used in the past and indicate level of experience in each anguage.
+  5.General Interests section: Summarize your interest and hobbies.
+  6.Favorite song, film, and TV show section: Showcase videos with your favorite song, your favorite movie and your favorite TV show.
+  7.Favorite Website section: In this section, provide a list that link to your favorite website or online post. Make sure these links open in a new tab in the browser. For each link provide a short description of what this website is about.
+  7.Menu section: The menu section should provide a should provide
+  8.My Projects in this course: This section will serve as your project’s index list. It should
+  include a list summarizing each project you completed in this project in this course. You will update this section as we progress in the course. summarized what project linking to all your projects and assignments you create in this course. To begin with, include a link to this page
 
-</p>
-      </div>
+  </p>
+        </div>
+        <br>
+      <br>
+        <img class="img-thumbnail"src="./Project_1_screenshot.PNG" alt="screenshot of project" width=50%>
+      <br>
+        <a href="https://sguthrie16.github.io/CUS-1172-Sarah-Guthrie/Project%201/Sarah.html" target="_blank">Click here to view the full project</a>
     </div>
-    <br>
-      <img class="img-thumbnail"src="./Project_1_screenshot.PNG" alt="screenshot of project" width=50%>
-    <br>
-      <a href="https://sguthrie16.github.io/CUS-1172-Sarah-Guthrie/Project%201/Sarah.html" target="_blank">Click here to view the full project</a>
-  </div>
-
-
-
+</div>
   </body>
 </html>
