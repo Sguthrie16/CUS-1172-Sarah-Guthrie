@@ -47,6 +47,13 @@ table{
   width:90%;
 }
 }
+nav{
+  position: fixed;
+  z-index: 1;
+  margin-left:0;
+}
+
+
 @media print {
   .header{
     padding:30px;
@@ -59,5 +66,8 @@ table{
   }
   .column_favorites{
   width:100%;
+  }
+  .dropdown{
+    display: none;
   }
 }
