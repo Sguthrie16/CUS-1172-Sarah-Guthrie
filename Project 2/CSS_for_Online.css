@@ -31,7 +31,6 @@ nav{
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 .menu ul{
@@ -82,7 +81,7 @@ nav{
   clear: both;
 }
 .important_info{
-  color:#3d1b5b;
+  color:orange;
 }
 /* Education */
 .column_college{
@@ -151,8 +150,8 @@ h2{
   color:#ffbf75;
 }
 h3{
-  color:#FF8A65;
+  color:#3d1b5b;
 }
 hr{
-  height: 2px;
+  height: 5px;
 }
