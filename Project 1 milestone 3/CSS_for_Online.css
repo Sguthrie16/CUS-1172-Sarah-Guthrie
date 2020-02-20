@@ -1,0 +1,30 @@
+body{
+  font-family: 'Quicksand', sans-serif;
+  background-image: url('https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-037.jpg');
+  box-sizing: border-box;
+}
+/* header */
+#header{
+  font-family: 'Merriweather', serif;
+  background-image:url(https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-position:70% 40%;
+  background-size:110%;
+  padding:7em;
+  opacity:.7;
+}
+#header h1{
+  color:white;
+  font-size:10em;
+}
+#about_me{
+  color:#9a619e;
+}
+.basic_info{
+  color:#FF8C00;
+}
+#work_experince ul{
+  padding-left: 0px;
+}
+.page-header{
+  color:pink;
+}

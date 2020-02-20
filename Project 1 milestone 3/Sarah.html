@@ -1,35 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<style media="screen">
-  body{
-    font-family: 'Quicksand', sans-serif;
-  }
-  #header{
-    font-family: 'Merriweather', serif;
-    background-image:url(https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
-    background-position:70% 40%;
-    background-size:110%;
-    padding:7em;
-    opacity:.7;
-  }
-  #header h1{
-    color:white;
-    font-size:10em;
-  }
-  #about_me{
-    color:#9a619e;
-  }
-  .basic_info{
-    color:#FF8C00;
-  }
-  #work_experince ul{
-    padding-left: 0px;
-  }
-  .page-header{
-    color:pink;
-  }
-</style>
-
 <head>
   <title>CUS1172</title>
   <meta charset="utf-8">
@@ -37,26 +7,36 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./CSS_for_Online.css">
+  <link rel="stylesheet" href="./css_for_iPhone.css">
 </head>
 
 <body>
 <!-- Menu -->
   <nav class="navbar navbar-default navbar-fixed-top">
+    <span id="menu_button">
+    <button type="button" class="btn" data-toggle="collapse" data-target="#menu">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        <path d="M16,12A2,2 0 0,1 18,10A2,2 0 0,1 20,12A2,2 0 0,1 18,14A2,2 0 0,1 16,12M10,12A2,2 0 0,1 12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12M4,12A2,2 0 0,1 6,10A2,2 0 0,1 8,12A2,2 0 0,1 6,14A2,2 0 0,1 4,12Z"></path>
+      </svg>
+    </button>
+  </span>
     <div class="container-fluid">
+    <div id="menu" class="collapse">
       <ul class="nav navbar-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#profile_information">Profile</a></li>
-        <li><a href="#general_interest">General Interest</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#work_experince">Work Experience</a></li>
-        <li><a href="#programming_skills">Program Skills</a></li>
-        <li><a href="#favorites">Favorites</a></li>
-        <li><a href="#website">Favorite Website</a></li>
-        <li><a href="#website">Favorite website</a></li>
-        <li><a href="#projects">Projects</a></li>
-      </ul>
+          <li><a href="#profile_information">Profile</a></li>
+          <li><a href="#general_interest">General Interest</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#work_experince">Work Experience</a></li>
+          <li><a href="#programming_skills">Program Skills</a></li>
+          <li><a href="#favorites">Favorites</a></li>
+          <li><a href="#website">Favorite Website</a></li>
+          <li><a href="#website">Favorite website</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
     </div>
   </nav>
+
 
 <!-- header -->
   <div class="jumbotron text-center" id="header">
@@ -164,10 +144,10 @@
     <form  method=GET action="https://www.google.com" target="_blank">
           <label for="language">What language would you like to learn</label>
           <div class="row">
-            <div class="form-group col-lg-10">
+            <div class="form-group col-lg-10 col-md-10 col-sm-10">
               <input type="text" name="language"class="form-control" placeholder="I would like to learn...  because...">
             </div>
-            <button type="submit" class="btn btn-primary col-lg-2">Learn more</button>
+            <button type="submit" class="btn btn-primary col-lg-2 col-md-2 col-sm-2">Learn more</button>
         </div>
   </form>
   </div>
@@ -175,27 +155,33 @@
 
 
 <!-- Favorites -->
-<div class="container text-center"id="favorites">
+<div class="container" id="favorites">
   <div class="page-header">
     <h2>Favorites</h2>
   </div>
-  <div class="row">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" >
 
-<!-- Favorite Movie-->
-<div class="col-lg-4" style="border-right:2px gray solid;">
-<iframe width="350" height="500" src="https://www.youtube.com/embed/44NbaCl6AKw">
-</iframe>
-</div>
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
 
-<!-- Favorite Song -->
+      <div class="carousel-inner">
+        <div class="item active embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/44NbaCl6AKw" width="100%" height="500px">
+  		</iframe>
+        </div>
 
-    <div class="col-lg-4 text-center border" style="border-right:2px gray solid;">
-      <iframe width="350" height="500" src="https://www.youtube.com/embed/dAgLxv8R1Yc"></iframe>
+        <div class="item embed-responsive embed-responsive-16by9">
+         <iframe  class="embed-responsive-item" src="https://www.youtube.com/embed/dAgLxv8R1Yc" width="100%" height="500px">			</iframe>
+        </div>
+
+        <div class="item embed-responsive embed-responsive-16by9">
+          <iframe  class="embed-responsive-item" src="https://www.youtube.com/embed/sRXg3eo6WJ0" width="100%" height="500px"></iframe>
+        </div>
+
     </div>
-
-<!-- Favorite TV -->
-    <div class="col-lg-4">
-      <iframe src="https://www.youtube.com/embed/sRXg3eo6WJ0" width="350" height="500"></iframe>
   </div>
 </div>
 
@@ -245,6 +231,33 @@ include a list summarizing each project you completed in this project in this co
     <br>
       <a href="https://sguthrie16.github.io/CUS-1172-Sarah-Guthrie/Project%201/Sarah.html" target="_blank">Click here to view the full project</a>
   </div>
+
+  <div class="text-center">
+    <h3> <b>Add CSS to webpage and take into account different medias</b></h3>
+    <h4>Due 02-13-2020</h4>
+    <button data-toggle="collapse" data-target="#descrption">Descrption</button>
+    <div id="descrption" class="collapse">
+      <p>Your submission MUST full-fill all the requirements of milestone one. If you missed any of the features from milestone one, you must included them now.
+        2. All section in your HTML page (profile page) must be styled using css.
+        3. Style at least one element using the in-lined "style" attribute of an HTML tag.
+        4.Define at lease one styling element (i.e. CSS-selector) using the tag, within the HTML page.
+        5. Define all other CSS styling is a separate file; link/reference that file to your html page.
+        6. Your css files must use class-selectors,id-selectors, and tag-selectors.
+        7. You must provide styling for each of the following elements in your page
+        8. Your page must employ responsive design to handle media-types with two different screen sizes.
+        9. Your page must employ responsive design for print media type viewing.
+        10. Use at least one css feature that was not covered in class. You can check for possible features on https://www.w3schools.com/css/default.aspwebsite.
+        11. Both of your responsive css designs MUST be well designed and visually appealing. Do not simply use CSS to showcase your understanding of the syntax , but instead use it to create that is visually appealing profile for your page.
+        12. Your page and the CSS files must be hosted on github-pages and be accessible through the web. 13. Organize your files (html file, css files, and resources) in folders and subfolders.
+      </p>
+    </div>
+  </div>
+  <br>
+    <img class="img-thumbnail"src="./Project_1_screenshot.PNG" alt="screenshot of project" width=50%>
+  <br>
+    <a href="https://sguthrie16.github.io/CUS-1172-Sarah-Guthrie/Project%202/Sarah.html" target="_blank">Click here to view the full project</a>
+</div>
+
 
 
 

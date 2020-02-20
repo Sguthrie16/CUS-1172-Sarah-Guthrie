@@ -1,0 +1,86 @@
+.menu_button{
+  display: block;
+  display: none;
+}
+@media screen and (max-width: 490px) {
+  body{
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  #menu_button{
+    display: contents;
+  }
+  h1{
+    margin-left: -80px;
+  }
+  /* About me */
+  .column_intro{
+    float: left;
+    width: 100%;
+    padding: 15px;
+  }
+  .column_profile_pic{
+    width: 100%;
+    padding:15px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column_form_input input{
+    margin-left: 10px;
+    width: 50%;
+    padding:15px;
+  }
+  .column_form_submit{
+    float: left;
+    width: 20%;
+    margin-left: 2px;
+    padding: 5px;
+    background-color: #ffbf75;
+    border: solid gray 2px;
+  }
+  /* favorite */
+  .column_favorites{
+    float: left;
+    width: 100%;
+    padding: 15px;
+  }
+  #screenshot{
+    width: 100%;
+  }
+.work_experince{
+  padding-left: 0;
+}
+table{
+  width:90%;
+}
+.dropdown{
+  position: fixed;
+  z-index: 1;
+  margin-left:0;
+}
+.btn-primary{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+@media print {
+  .header{
+    padding:30px;
+    background-image: url(https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+    background-size:cover;
+    color: black;
+  }
+  #screenshot{
+    width:100%;
+  }
+  .column_favorites{
+  width:100%;
+  }
+  .dropdown{
+    display: none;
+  }
+}
