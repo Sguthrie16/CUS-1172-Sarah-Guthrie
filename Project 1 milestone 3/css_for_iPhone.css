@@ -1,14 +1,7 @@
-.menu_button{
-  display: block;
-  display: none;
-}
 @media screen and (max-width: 490px) {
   body{
     margin-left: 2em;
     margin-right: 2em;
-  }
-  #menu_button{
-    display: contents;
   }
   h1{
     margin-left: -80px;

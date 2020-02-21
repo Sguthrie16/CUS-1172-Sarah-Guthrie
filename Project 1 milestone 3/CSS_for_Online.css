@@ -7,15 +7,14 @@ body{
 #header{
   font-family: 'Merriweather', serif;
   background-image:url(https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
-  background-position:70% 40%;
-  background-size:110%;
-  padding:7em;
+  background-size:100%;
   opacity:.7;
-}
-#header h1{
   color:white;
-  font-size:10em;
+  margin-top: 50px;
+  background-position:70% 40%;
+
 }
+
 #about_me{
   color:#9a619e;
 }

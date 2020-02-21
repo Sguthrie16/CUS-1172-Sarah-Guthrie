@@ -8,21 +8,22 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="./CSS_for_Online.css">
-  <link rel="stylesheet" href="./css_for_iPhone.css">
+  <!-- <link rel="stylesheet" href="./css_for_iPhone.css"> -->
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 <!-- Menu -->
   <nav class="navbar navbar-default navbar-fixed-top">
-    <span id="menu_button">
-    <button type="button" class="btn" data-toggle="collapse" data-target="#menu">
-      <svg width="24" height="24" viewBox="0 0 24 24">
-        <path d="M16,12A2,2 0 0,1 18,10A2,2 0 0,1 20,12A2,2 0 0,1 18,14A2,2 0 0,1 16,12M10,12A2,2 0 0,1 12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12M4,12A2,2 0 0,1 6,10A2,2 0 0,1 8,12A2,2 0 0,1 6,14A2,2 0 0,1 4,12Z"></path>
-      </svg>
-    </button>
-  </span>
-    <div class="container-fluid">
-    <div id="menu" class="collapse">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">CUS 1172</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
           <li><a href="#profile_information">Profile</a></li>
           <li><a href="#general_interest">General Interest</a></li>
@@ -31,11 +32,10 @@
           <li><a href="#programming_skills">Program Skills</a></li>
           <li><a href="#favorites">Favorites</a></li>
           <li><a href="#website">Favorite Website</a></li>
-          <li><a href="#website">Favorite website</a></li>
           <li><a href="#projects">Projects</a></li>
         </ul>
-    </div>
-  </nav>
+  </div>
+</nav>
 
 
 <!-- header -->
@@ -45,12 +45,12 @@
 
 
 <!-- Basic profile information -->
-  <div class="container" id="profile_information">
+  <div class="container" id="profile_information" style="margin-top:-30px;">
     <div class="page-header">
       <h2>About Me</h2>
     </div>
     <div class="row">
-      <div class="col-lg-8 text-center" style="padding-top:40px;">
+      <div class="col-lg-8 text-center" style="padding-top:40px; margin-top:-30px;">
           <p>My name is Sarah Guthrie and I am a current <span class="basic_info">
             senior </span>at St. John's University. I am majoring in <span class="basic_info">
               computer science with a concntration in cyber security.</span>
@@ -73,10 +73,29 @@
     <div class="page-header">
       <h2>General Interests</h2>
     </div>
-    <ul>
-      <li>I really enjoy baking and trying new recipes</li>
-      <li>I find joy in painting and doing artistic things, even if i am not the best</li>
-    </ul>
+    <div class="row">
+        <div class="col-sm-4">
+          <h4>I really enjoy baking and trying new recipes</h4>
+          </div>
+          <div class="col-sm-4">
+            <h4>I find joy in painting</h4>
+        </div>
+        <div class="col-sm-4">
+            <h4>I enjoy reading when I have time</h4>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-4">
+            <img src='https://images.unsplash.com/photo-1493807879848-13f1500cee7f?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt='Bread' width=100%>
+            </div>
+            <div class="col-sm-4">
+              <img src='https://images.unsplash.com/photo-1533688903971-65ad8726f66f?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt="paint" width=100%>
+          </div>
+          <div class="col-sm-4">
+              <img src="https://images.unsplash.com/photo-1468174482686-1047396f13b3?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ" alt="books" width=100%>
+          </div>
+        </div>
+    </div>
   </div>
 
 
@@ -115,7 +134,7 @@
     </ul>
   </div>
 <!-- Programming skills -->
-  <div class="container-fluid" id="programming_skills">
+  <div class="container" id="programming_skills">
     <div class="page-header">
       <h2>Language</h2>
     </div>
@@ -185,21 +204,21 @@
   </div>
 </div>
 
-
-
-
-
 <!-- Favorite website -->
-  <div class="conatiner text-center" id="website">
+
+  <div class="container" id="website">
     <div class="page-header">
       <h2>Favorite Website</h2>
     </div>
-    <h3>Youtube is my favorite website and can be access <a href="https://youtube.com" target="_blank"> <br><span class="btn btn-default"> here </span></a> </h3>
-    <p>Youtube is a website that allows you to share and view videos. they have many different categories and can accomidate all interest.</p>
+    <div class="text-center">
+      <h3>Youtube is my favorite website and can be access <a href="https://youtube.com" target="_blank"> <br><span class="btn btn-default"> here </span></a> </h3>
+      <p>Youtube is a website that allows you to share and view videos. they have many different categories and can accomidate all interest.</p>
+
+    </div>
   </div>
 
 <!-- Projects -->
-  <div class="container text-center" id="projects">
+  <div class="container" id="projects">
     <div class="page-header">
       <h2>Projects</h2>
     </div>
@@ -227,16 +246,18 @@ include a list summarizing each project you completed in this project in this co
       </div>
     </div>
     <br>
-      <img class="img-thumbnail"src="./Project_1_screenshot.PNG" alt="screenshot of project" width=50%>
+    <div  class="text-center">
+      <img class="img-thumbnail mg-responsive center-block"src="./Project_1_screenshot.PNG" alt="screenshot of project" width=50%>
     <br>
       <a href="https://sguthrie16.github.io/CUS-1172-Sarah-Guthrie/Project%201/Sarah.html" target="_blank">Click here to view the full project</a>
-  </div>
+
+    </div>
 
   <div class="text-center">
     <h3> <b>Add CSS to webpage and take into account different medias</b></h3>
     <h4>Due 02-13-2020</h4>
-    <button data-toggle="collapse" data-target="#descrption">Descrption</button>
-    <div id="descrption" class="collapse">
+    <button data-toggle="collapse" data-target="#descrption_project2">Descrption</button>
+    <div id="descrption_project2" class="collapse">
       <p>Your submission MUST full-fill all the requirements of milestone one. If you missed any of the features from milestone one, you must included them now.
         2. All section in your HTML page (profile page) must be styled using css.
         3. Style at least one element using the in-lined "style" attribute of an HTML tag.
@@ -253,9 +274,12 @@ include a list summarizing each project you completed in this project in this co
     </div>
   </div>
   <br>
-    <img class="img-thumbnail"src="./Project_1_screenshot.PNG" alt="screenshot of project" width=50%>
+  <div class="text-center">
+    <img class="img-thumbnail mg-responsive center-block"src="./Project_2_screensot.PNG" alt="screenshot of project" width=50%>
   <br>
-    <a href="https://sguthrie16.github.io/CUS-1172-Sarah-Guthrie/Project%202/Sarah.html" target="_blank">Click here to view the full project</a>
+    <a href="https://sguthrie16.github.io/CUS-1172-Sarah-Guthrie/Project%202/Sarah.html" target="_blank" >Click here to view the full project</a>
+
+  </div>
 </div>
 
 
