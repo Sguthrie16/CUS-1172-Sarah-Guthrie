@@ -1,0 +1,10 @@
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2em;
+    font-family: 'Roboto Slab', serif;
+}
+.row{
+  margin-right: auto;
+  margin-left: auto;
+}
