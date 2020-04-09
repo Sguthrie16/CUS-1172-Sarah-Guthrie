@@ -164,7 +164,7 @@
       "question": "In HTML colors make a page. Declaring colors can be done for different types. What color is the following syntax referencing background-color:50, 3, 87",
       "correct_answers":"#320357",
       "explanation": "You need to make sure to check for the value using the greater than or equal"
-    },
+    }
 
   ]
 }
