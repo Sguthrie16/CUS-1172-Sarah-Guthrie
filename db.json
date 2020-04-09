@@ -3,20 +3,6 @@
     {
       "id": 1,
       "question_type": "Multiple choice",
-      "question": "Which is correct python Syntax",
-      "options": {
-        "optiona": "System.in.println",
-        "optionb": "System.out.println",
-        "optionc": "helloWorld",
-        "optiond": "Print helloWorld"
-      },
-      "correct_answers": "System.out.println",
-      "explanation": "The correct answers is B because we need to make the system know we are printing a message"
-    },
-
-    {
-      "id": 2,
-      "question_type": "Multiple choice",
       "question": "How many H tags are there HTML",
       "options": {
         "optiona": "1",
@@ -27,46 +13,158 @@
       "correct_answers": "6",
       "explanation": "The different H tags are H1, H2, H3, H4, H5, and H6. The smaller the number the smaller the text"
     },
-
+    {
+      "id":2,
+      "question_type": "Pictures",
+      "question": "Which photo shows the following code <body style='background:gray'><h1 style='color:orange; border: 5px solid orange; margin:auto; width:300px;'>HELLLOOOOOOO WORLD 🧛‍♀️🧙‍♂️</h1></body>",
+      "options": {
+        "optiona": ".\\Images_for_quiz\\Quiz1\\Answer_for_margin_auto.PNG",
+        "optionb": ".\\Images_for_quiz\\Quiz1\\Option_for_margin_auto1.PNG",
+        "optionc": ".\\Images_for_quiz\\Quiz1\\Option_for_margin_auto1.PNG",
+        "optiond": ".\\Images_for_quiz\\Quiz1\\Option_for_margin_auto1.PNG"
+      },
+      "correct_answers":"file:///C:/Users/Sarah%20Guthrie/Desktop/CUS1172_Spring2020_Sarah/Images_for_quiz/Quiz2/Answer_for_margin_auto.PNG",
+      "explanation": "Margin:auto center the element on the page"
+    },
     {
       "id":3,
+      "question_type": "Matching",
+      "question": "In HTML colors make a page. Declaring colors can be done for different types. What color is the following syntax referencing background-color:255, 222, 244",
+      "correct_answers":"#ffdef4",
+      "explanation": "You need to make sure to check for the value using the greater than or equal"
+    },
+    {
+      "id": 4,
+      "question_type": "Multiple selection",
+      "question": "Which of the following ways can you change the look of an element",
+      "options": {
+        "optiona": "<style><style>",
+        "optionb": "style:",
+        "optionc": "style=''",
+        "optiond": "<link href='style.css'>"
+      },
+      "correct_answers": "<style><style>style=''<link href='style.css'>",
+      "explanation": "You can change the style of an element in line as well as using the style tags within an HTML page and also in a seperate file and link it in the HTML file "
+    },
+    {
+      "id":5,
       "question_type": "TF",
-      "question": "Does Java run on a virtual enviornment",
+      "question": "Bootstrap includes a number of pre-defines CSS selectors and JS scripts which allows it to easily style a webpage",
       "options":{
         "optiona": "True",
         "optionb": "False"
       },
       "correct_answers":"True",
-      "explanation": "Java runs of a virtual enviornment"
+      "explanation": "linking the boostrap requirments in a webpage ive you access to the predefined styles it contains"
+    },
+    {
+      "id":66,
+      "question_type": "TF",
+      "question": "You use bootstrap elements by defining the class name which is what tells it to style the element a certain way",
+      "options":{
+        "optiona": "True",
+        "optionb": "False"
+      },
+      "correct_answers":"True",
+      "explanation": "You can deifne various class names for different styling"
+    },
+    {
+      "id": 7,
+      "question_type": "Multiple choice",
+      "question": "Which of the following tags creates a numbered list",
+      "options": {
+        "optiona": "<ol>",
+        "optionb": "<ul>",
+        "optionc": "<li>",
+        "optiond": "<number_list>"
+      },
+      "correct_answers": "<ol>",
+      "explanation": "The <ol> tag creates an ordered list"
+    },
+    {
+      "id":8,
+      "question_type": "TF",
+      "question": "You should have different templates based on screen size",
+      "options":{
+        "optiona": "True",
+        "optionb": "False"
+      },
+      "correct_answers":"True",
+      "explanation": "Webpages can display different depending on the size of a screen. It is smart to account for different media types."
+    },
+    {
+      "id": 9,
+      "question_type": "Multiple selection",
+      "question": "Which of the following are HTML input types?",
+      "options": {
+        "optiona": "<input type='button'>",
+        "optionb": "<input type='checkbox'>",
+        "optionc": "<input type='color'>",
+        "optiond": "<input type='todays-date'>"
+      },
+      "correct_answers": "<input type='button'><input type='checkbox'><input type='color'>",
+      "explanation": "You can change the style of an element in line as well as using the style tags within an HTML page and also in a seperate file and link it in the HTML file "
+    },
+    {
+      "id":10,
+      "question_type": "TF",
+      "question": "CSS stands for Computer Styling Sheet",
+      "options":{
+        "optiona": "True",
+        "optionb": "False"
+      },
+      "correct_answers":"False",
+      "explanation": "CSS is an acronymn for Cascading Styling Sheets"
     },
 
     {
-      "id":4,
-      "question_type": "Fill in",
-      "question": "What is the output of this line \n x=10; \nif(x>10){\n console.log(x*4)}\nelse if(x>=10){\n console.log(x*5)}",
-      "correct_answers":"50",
-      "explanation": "You need to make sure to check for the value using the greater than or equal"
-    },
-
-    {
-      "id":5,
+      "id":11,
       "question_type": "Matching",
       "question": "In HTML colors make a page. Declaring colors can be done for different types. What color is the following syntax referencing background-color:184, 214, 255,",
       "correct_answers":"#b8d6ff",
       "explanation": "You need to make sure to check for the value using the greater than or equal"
     },
+
     {
-      "id":6,
-      "question_type": "Pictures",
-      "question": "What is the output of this line \n x=10; \nif(x>10){\n console.log(x*4)}\nelse if(x>=10){\n console.log(x*5)}",
+      "id": 12,
+      "question_type": "Multiple selection",
+      "question": "Which of the following can be used to style an element?",
       "options": {
-        "optiona": "https://images.unsplash.com/photo-1584188336025-eae0d53f8794?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
-        "optionb": "https://images.unsplash.com/photo-1584188336025-eae0d53f8794?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
-        "optionc": "https://images.unsplash.com/photo-1584188336025-eae0d53f8794?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
-        "optiond": "https://images.unsplash.com/photo-1584188336025-eae0d53f8794?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+        "optiona": "Padding",
+        "optionb": "Margin",
+        "optionc": "Border",
+        "optiond": "Data"
       },
-      "correct_answers":"https://images.unsplash.com/photo-1584188336025-eae0d53f8794?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+      "correct_answers": "PaddingMarginBorder",
+      "explanation": "You can change the style of an element in line as well as using the style tags within an HTML page and also in a seperate file and link it in the HTML file "
+    },
+
+    {
+      "id":13,
+      "question_type": "TF",
+      "question": "HTML stands for Hyper Text Markup Language ",
+      "options":{
+        "optiona": "True",
+        "optionb": "False"
+      },
+      "correct_answers":"True",
+      "explanation": "HTML is an acronymn for Hyper Text Markup Language "
+    },
+
+    {
+      "id":14,
+      "question_type": "Matching",
+      "question": "In HTML colors make a page. Declaring colors can be done for different types. What color is the following syntax referencing background-color:183, 219, 0",
+      "correct_answers":"#b7db00",
       "explanation": "You need to make sure to check for the value using the greater than or equal"
-    }
+    },
+    {
+      "id":15,
+      "question_type": "Matching",
+      "question": "In HTML colors make a page. Declaring colors can be done for different types. What color is the following syntax referencing background-color:50, 3, 87",
+      "correct_answers":"#320357",
+      "explanation": "You need to make sure to check for the value using the greater than or equal"
+    },
+
   ]
 }
