@@ -12,7 +12,7 @@
   </head>
   <body>
 <!-- Title -->
-<div class="jumbotron text-center" style="background:#52b700; color">
+<div class="jumbotron text-center" style="background:#213646; color:white;">
   <h1 id="title">Quiz</h1>
 </div>
 
@@ -42,7 +42,7 @@
       <form id="quiz_one_questions">
         <label for="name">Name:</label>
         <input type="text" id="firstname" name="firstname">
-        <button type="submit" name="quiz_one_submit" id="quiz_one_submit">Submit</button>
+        <input type="submit" value="Submit"></input>
       </form>
     </div>
     <div class="col-lg-3">
@@ -59,7 +59,7 @@
       <form id="quiz_two_questions">
         <label for="job">Job:</label>
         <input type="text" id="job" name="job">
-        <button type="submit" name="quiz_two_submit" id="quiz_two_submit">Submit</button>
+        <input type="submit" value="Submit"></input>
       </form>
     </div>
     <div class="col-lg-3">
@@ -69,5 +69,21 @@
 </div>
 
 <!-- Encouragment -->
+<div id="encouragment_grid" style="display:none;">
+  <div class="row">
+    <div class="col-lg-9">
+      <h2 id="encouragment" style="padding:10px;"></h2>
+    </div>
+    <div class="col-lg-3">
+      <h4 id="score">Score</h4>
+    </div>
+  </div>
+</div>
+
+<!-- Explanation -->
+  <form id="explanation" style="display:none;">
+    <h4 id="question_explanation"></h4>
+    <input type="submit"  value="I understand" id="explanation_close">
+  </form>
   </body>
 </html>
