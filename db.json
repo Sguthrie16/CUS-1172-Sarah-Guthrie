@@ -31,10 +31,31 @@
       "question_type": "Matching",
       "question": "In HTML colors make a page. Declaring colors can be done for different types. What color is the following syntax referencing background-color:255, 222, 244",
       "correct_answers":"#ffdef4",
-      "explanation": "You need to make sure to check for the value using the greater than or equal"
+      "explanation": "The RGB tells you the color"
     },
     {
-      "id": 4,
+      "id":4,
+      "question_type": "Fill in",
+      "question": "How to divide leemnts on your page using bootstap",
+      "correct_answers":"Using the grid",
+      "explanation": "The grid allows you to divide up your page"
+    },
+    {
+      "id":2,
+      "question_type": "Pictures",
+      "question": "Which produces the largest text",
+      "options": {
+        "optiona": ".\\Images_for_quiz\\Quiz2\\H_tag_correct_answer.PNG",
+        "optionb": ".\\Images_for_quiz\\Quiz2\\H_tag_option1.PNG",
+        "optionc": ".\\Images_for_quiz\\Quiz2\\H_tag_option2.PNG",
+        "optiond": ".\\Images_for_quiz\\Quiz2\\H_tag_option3.PNG"
+      },
+      "correct_answers":"file:///C:/Users/Sarah%20Guthrie/Desktop/CUS1172_Spring2020_Sarah/Images_for_quiz/Quiz2/H_tag_correct_answer.PNG",
+      "explanation": "Margin:auto center the element on the page"
+    },
+
+    {
+      "id": 5,
       "question_type": "Multiple selection",
       "question": "Which of the following ways can you change the look of an element",
       "options": {
@@ -47,7 +68,7 @@
       "explanation": "You can change the style of an element in line as well as using the style tags within an HTML page and also in a seperate file and link it in the HTML file "
     },
     {
-      "id":5,
+      "id":6,
       "question_type": "TF",
       "question": "Bootstrap includes a number of pre-defines CSS selectors and JS scripts which allows it to easily style a webpage",
       "options":{
@@ -58,7 +79,7 @@
       "explanation": "linking the boostrap requirments in a webpage ive you access to the predefined styles it contains"
     },
     {
-      "id":66,
+      "id":7,
       "question_type": "TF",
       "question": "You use bootstrap elements by defining the class name which is what tells it to style the element a certain way",
       "options":{
@@ -69,7 +90,14 @@
       "explanation": "You can deifne various class names for different styling"
     },
     {
-      "id": 7,
+      "id":8,
+      "question_type": "Fill in",
+      "question": "In bootstrap how do you make a green button",
+      "correct_answers":".btn-success",
+      "explanation": "There are differnt ways to style a button"
+    },
+    {
+      "id": 9,
       "question_type": "Multiple choice",
       "question": "Which of the following tags creates a numbered list",
       "options": {
@@ -78,11 +106,11 @@
         "optionc": "li tag",
         "optiond": "number_list tag"
       },
-      "correct_answers": "ol tag",
+      "correct_answers": "ol",
       "explanation": "The ol tag creates an ordered list"
     },
     {
-      "id":8,
+      "id":10,
       "question_type": "TF",
       "question": "You should have different templates based on screen size",
       "options":{
@@ -93,7 +121,7 @@
       "explanation": "Webpages can display different depending on the size of a screen. It is smart to account for different media types."
     },
     {
-      "id": 9,
+      "id": 11,
       "question_type": "Multiple selection",
       "question": "Which of the following are HTML input types?",
       "options": {
@@ -106,7 +134,7 @@
       "explanation": "You can change the style of an element in line as well as using the style tags within an HTML page and also in a seperate file and link it in the HTML file "
     },
     {
-      "id":10,
+      "id":12,
       "question_type": "TF",
       "question": "CSS stands for Computer Styling Sheet",
       "options":{
@@ -118,15 +146,15 @@
     },
 
     {
-      "id":11,
+      "id":13,
       "question_type": "Matching",
       "question": "In HTML colors make a page. Declaring colors can be done for different types. What color is the following syntax referencing background-color:184, 214, 255,",
       "correct_answers":"#b8d6ff",
-      "explanation": "You need to make sure to check for the value using the greater than or equal"
+      "explanation": "The RGB tells you the color"
     },
 
     {
-      "id": 12,
+      "id": 14,
       "question_type": "Multiple selection",
       "question": "Which of the following can be used to style an element?",
       "options": {
@@ -140,7 +168,7 @@
     },
 
     {
-      "id":13,
+      "id":15,
       "question_type": "TF",
       "question": "HTML stands for Hyper Text Markup Language ",
       "options":{
@@ -152,19 +180,47 @@
     },
 
     {
-      "id":14,
+      "id":16,
       "question_type": "Matching",
       "question": "In HTML colors make a page. Declaring colors can be done for different types. What color is the following syntax referencing background-color:183, 219, 0",
       "correct_answers":"#b7db00",
-      "explanation": "You need to make sure to check for the value using the greater than or equal"
+      "explanation": "The RGB tells you the color"
     },
     {
-      "id":15,
+      "id":18,
+      "question_type": "Fill in",
+      "question": "How to call a class in CSS",
+      "correct_answers":".classname",
+      "explanation": ". refer to classes and # to ID's"
+    },
+    {
+      "id":17,
       "question_type": "Matching",
       "question": "In HTML colors make a page. Declaring colors can be done for different types. What color is the following syntax referencing background-color:50, 3, 87",
       "correct_answers":"#320357",
-      "explanation": "You need to make sure to check for the value using the greater than or equal"
-    }
+      "explanation": "The RGB tells you the color"
+    },
+    {
+      "id":18,
+      "question_type": "Fill in",
+      "question": "How to set a bootstrap header",
+      "correct_answers":"jumbotron",
+      "explanation": "Jumbotron creates an element such as that of the one that says quiz"
+    },
+
+    {
+      "id":19,
+      "question_type": "Pictures",
+      "question": "Which form is resembelence of this question",
+      "options": {
+        "optiona": ".\\Images_for_quiz\\Quiz2\Form_type_radio.PNG",
+        "optionb": ".\\Images_for_quiz\\Quiz2\\Form_type_password.PNG",
+        "optionc": ".\\Images_for_quiz\\Quiz2\\Form_type_text.PNG",
+        "optiond": ".\\Images_for_quiz\\Quiz2\\Form_type_select.PNG"
+      },
+      "correct_answers":"file:///C:/Users/Sarah%20Guthrie/Desktop/CUS1172_Spring2020_Sarah/Images_for_quiz/Quiz2/Form_type_radio.PNG",
+      "explanation": "Radio buttons are small circle buttons"
+    },
 
   ]
 }
