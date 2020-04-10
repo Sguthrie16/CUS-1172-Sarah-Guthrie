@@ -23,7 +23,7 @@
         "optionc": ".\\Images_for_quiz\\Quiz2\\Option_for_margin_auto1.PNG",
         "optiond": ".\\Images_for_quiz\\Quiz2\\Option_for_margin_auto1.PNG"
       },
-      "correct_answers":"file:///C:/Users/Sarah%20Guthrie/Desktop/CUS1172_Spring2020_Sarah/Images_for_quiz/Quiz2/Answer_for_margin_auto.PNG",
+      "correct_answers":"Images_for_quiz/Quiz2/Answer_for_margin_auto.PNG",
       "explanation": "Margin:auto center the element on the page"
     },
     {
@@ -50,7 +50,7 @@
         "optionc": ".\\Images_for_quiz\\Quiz2\\H_tag_option2.PNG",
         "optiond": ".\\Images_for_quiz\\Quiz2\\H_tag_option3.PNG"
       },
-      "correct_answers":"file:///C:/Users/Sarah%20Guthrie/Desktop/CUS1172_Spring2020_Sarah/Images_for_quiz/Quiz2/H_tag_correct_answer.PNG",
+      "correct_answers":"Images_for_quiz/Quiz2/H_tag_correct_answer.PNG",
       "explanation": "Margin:auto center the element on the page"
     },
 
@@ -218,7 +218,7 @@
         "optionc": ".\\Images_for_quiz\\Quiz2\\Form_type_text.PNG height=265",
         "optiond": ".\\Images_for_quiz\\Quiz2\\Form_type_select.PNG height=265"
       },
-      "correct_answers":"file:///C:/Users/Sarah%20Guthrie/Desktop/CUS1172_Spring2020_Sarah/Images_for_quiz/Quiz2/Form_type_radio.PNG",
+      "correct_answers":"Images_for_quiz/Quiz2/Form_type_radio.PNG",
       "explanation": "Radio buttons are small circle buttons"
     }
 
