@@ -213,7 +213,7 @@
       "question_type": "Pictures",
       "question": "Which form is resembelence of this question",
       "options": {
-        "optiona": ".\\Images_for_quiz\\Quiz2\Form_type_radio.PNG",
+        "optiona": ".\\Images_for_quiz\\Quiz2\\Form_type_radio.PNG",
         "optionb": ".\\Images_for_quiz\\Quiz2\\Form_type_password.PNG",
         "optionc": ".\\Images_for_quiz\\Quiz2\\Form_type_text.PNG",
         "optiond": ".\\Images_for_quiz\\Quiz2\\Form_type_select.PNG"
