@@ -16,7 +16,7 @@
     {
       "id":2,
       "question_type": "Pictures",
-      "question": "Which photo shows the following code <img src='.\\Images_for_quiz\\Quiz2\\Question_for_margin_auto.PNG' width=500px;>",
+      "question": "Which photo shows the following code <img src='.\\Images_for_quiz\\Quiz2\\Question_for_margin_auto.PNG' width=600px;>",
       "options": {
         "optiona": ".\\Images_for_quiz\\Quiz2\\Answer_for_margin_auto.PNG",
         "optionb": ".\\Images_for_quiz\\Quiz2\\Option_for_margin_auto1.PNG",
