@@ -18,10 +18,10 @@
       "question_type": "Pictures",
       "question": "Which photo shows the following code <body style='background:gray'><h1 style='color:orange; border: 5px solid orange; margin:auto; width:300px;'>HELLLOOOOOOO WORLD 🧛‍♀️🧙‍♂️</h1></body>",
       "options": {
-        "optiona": ".\\Images_for_quiz\\Quiz1\\Answer_for_margin_auto.PNG",
-        "optionb": ".\\Images_for_quiz\\Quiz1\\Option_for_margin_auto1.PNG",
-        "optionc": ".\\Images_for_quiz\\Quiz1\\Option_for_margin_auto1.PNG",
-        "optiond": ".\\Images_for_quiz\\Quiz1\\Option_for_margin_auto1.PNG"
+        "optiona": ".\\Images_for_quiz\\Quiz2\\Answer_for_margin_auto.PNG",
+        "optionb": ".\\Images_for_quiz\\Quiz2\\Option_for_margin_auto1.PNG",
+        "optionc": ".\\Images_for_quiz\\Quiz2\\Option_for_margin_auto1.PNG",
+        "optiond": ".\\Images_for_quiz\\Quiz2\\Option_for_margin_auto1.PNG"
       },
       "correct_answers":"file:///C:/Users/Sarah%20Guthrie/Desktop/CUS1172_Spring2020_Sarah/Images_for_quiz/Quiz2/Answer_for_margin_auto.PNG",
       "explanation": "Margin:auto center the element on the page"
