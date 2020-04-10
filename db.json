@@ -41,20 +41,6 @@
       "explanation": "The grid allows you to divide up your page"
     },
     {
-      "id":2,
-      "question_type": "Pictures",
-      "question": "Which produces the largest text",
-      "options": {
-        "optiona": ".\\Images_for_quiz\\Quiz2\\H_tag_correct_answer.PNG",
-        "optionb": ".\\Images_for_quiz\\Quiz2\\H_tag_option1.PNG",
-        "optionc": ".\\Images_for_quiz\\Quiz2\\H_tag_option2.PNG",
-        "optiond": ".\\Images_for_quiz\\Quiz2\\H_tag_option3.PNG"
-      },
-      "correct_answers":"Images_for_quiz/Quiz2/H_tag_correct_answer.PNG",
-      "explanation": "Margin:auto center the element on the page"
-    },
-
-    {
       "id": 5,
       "question_type": "Multiple selection",
       "question": "Which of the following ways can you change the look of an element",
@@ -202,12 +188,17 @@
     },
     {
       "id":19,
-      "question_type": "Fill in",
-      "question": "How to set a bootstrap header",
-      "correct_answers":"jumbotron",
-      "explanation": "Jumbotron creates an element such as that at the head of this page"
+      "question_type": "Pictures",
+      "question": "Which produces the largest text",
+      "options": {
+        "optiona": ".\\Images_for_quiz\\Quiz2\\H_tag_correct_answer.PNG",
+        "optionb": ".\\Images_for_quiz\\Quiz2\\H_tag_option1.PNG",
+        "optionc": ".\\Images_for_quiz\\Quiz2\\H_tag_option2.PNG",
+        "optiond": ".\\Images_for_quiz\\Quiz2\\H_tag_option3.PNG"
+      },
+      "correct_answers":"Images_for_quiz/Quiz2/H_tag_correct_answer.PNG",
+      "explanation": "Margin:auto center the element on the page"
     },
-
     {
       "id":20,
       "question_type": "Pictures",
