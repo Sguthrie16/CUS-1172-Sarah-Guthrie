@@ -73,13 +73,13 @@
       "question_type": "Multiple choice",
       "question": "Which of the following tags creates a numbered list",
       "options": {
-        "optiona": "<ol>",
-        "optionb": "<ul>",
-        "optionc": "<li>",
-        "optiond": "<number_list>"
+        "optiona": "ol tag",
+        "optionb": "ul tag",
+        "optionc": "li tag",
+        "optiond": "number_list tag"
       },
-      "correct_answers": "<ol>",
-      "explanation": "The <ol> tag creates an ordered list"
+      "correct_answers": "ol tag",
+      "explanation": "The ol tag creates an ordered list"
     },
     {
       "id":8,
