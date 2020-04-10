@@ -213,10 +213,10 @@
       "question_type": "Pictures",
       "question": "Which form is resembelence of this question",
       "options": {
-        "optiona": ".\\Images_for_quiz\\Quiz2\\Form_type_radio.PNG",
-        "optionb": ".\\Images_for_quiz\\Quiz2\\Form_type_password.PNG",
-        "optionc": ".\\Images_for_quiz\\Quiz2\\Form_type_text.PNG",
-        "optiond": ".\\Images_for_quiz\\Quiz2\\Form_type_select.PNG"
+        "optiona": ".\\Images_for_quiz\\Quiz2\\Form_type_radio.PNG height=265",
+        "optionb": ".\\Images_for_quiz\\Quiz2\\Form_type_password.PNG height=265",
+        "optionc": ".\\Images_for_quiz\\Quiz2\\Form_type_text.PNG height=265",
+        "optiond": ".\\Images_for_quiz\\Quiz2\\Form_type_select.PNG height=265"
       },
       "correct_answers":"file:///C:/Users/Sarah%20Guthrie/Desktop/CUS1172_Spring2020_Sarah/Images_for_quiz/Quiz2/Form_type_radio.PNG",
       "explanation": "Radio buttons are small circle buttons"
