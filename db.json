@@ -97,12 +97,12 @@
       "question_type": "Multiple selection",
       "question": "Which of the following are HTML input types?",
       "options": {
-        "optiona": "<input type='button'>",
-        "optionb": "<input type='checkbox'>",
-        "optionc": "<input type='color'>",
-        "optiond": "<input type='todays-date'>"
+        "optiona": "input type='button'",
+        "optionb": "input type='checkbox'",
+        "optionc": "input type='color'",
+        "optiond": "input type='todays-date'"
       },
-      "correct_answers": "<input type='button'><input type='checkbox'><input type='color'>",
+      "correct_answers": "input type='button'input type='checkbox'input type='color'",
       "explanation": "You can change the style of an element in line as well as using the style tags within an HTML page and also in a seperate file and link it in the HTML file "
     },
     {
