@@ -41,9 +41,9 @@
         "optiona": "Style tag",
         "optionb": "Style:",
         "optionc": "In line style",
-        "optiond": "linking the style sheet"
+        "optiond": "Linking the style sheet"
       },
-      "correct_answers": "<style><style>style=''<link href='style.css'>",
+      "correct_answers": "Style tagIn line stylLinking the style sheet",
       "explanation": "You can change the style of an element in line as well as using the style tags within an HTML page and also in a seperate file and link it in the HTML file "
     },
     {
