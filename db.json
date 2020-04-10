@@ -187,21 +187,21 @@
       "explanation": "The RGB tells you the color"
     },
     {
-      "id":18,
+      "id":17,
       "question_type": "Fill in",
       "question": "How to call a class in CSS",
       "correct_answers":".classname",
       "explanation": ". refer to classes and # to ID's"
     },
     {
-      "id":17,
+      "id":18,
       "question_type": "Matching",
       "question": "In HTML colors make a page. Declaring colors can be done for different types. What color is the following syntax referencing background-color:50, 3, 87",
       "correct_answers":"#320357",
       "explanation": "The RGB tells you the color"
     },
     {
-      "id":18,
+      "id":19,
       "question_type": "Fill in",
       "question": "How to set a bootstrap header",
       "correct_answers":"jumbotron",
@@ -209,7 +209,7 @@
     },
 
     {
-      "id":19,
+      "id":20,
       "question_type": "Pictures",
       "question": "Which form is resembelence of this question",
       "options": {
