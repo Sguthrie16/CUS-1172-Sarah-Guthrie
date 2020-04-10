@@ -93,8 +93,8 @@
       "id":8,
       "question_type": "Fill in",
       "question": "In bootstrap how do you make a green button",
-      "correct_answers":".btn-success",
-      "explanation": "There are differnt ways to style a button"
+      "correct_answers":"btn-success",
+      "explanation": "Btn-success is one of the may ways to style a button. There are differnt ways to style a button"
     },
     {
       "id": 9,
@@ -131,7 +131,7 @@
         "optiond": "input type='todays-date'"
       },
       "correct_answers": "input type='button'input type='checkbox'input type='color'",
-      "explanation": "You can change the style of an element in line as well as using the style tags within an HTML page and also in a seperate file and link it in the HTML file "
+      "explanation": "Button, Checkbox, and color are some of than many input types"
     },
     {
       "id":12,
@@ -164,7 +164,7 @@
         "optiond": "Data"
       },
       "correct_answers": "PaddingMarginBorder",
-      "explanation": "You can change the style of an element in line as well as using the style tags within an HTML page and also in a seperate file and link it in the HTML file "
+      "explanation": "An element has padding, margin, border, and more. You can easily see this if you right click and hit inspect on a webpage."
     },
 
     {
@@ -205,7 +205,7 @@
       "question_type": "Fill in",
       "question": "How to set a bootstrap header",
       "correct_answers":"jumbotron",
-      "explanation": "Jumbotron creates an element such as that of the one that says quiz"
+      "explanation": "Jumbotron creates an element such as that at the head of this page"
     },
 
     {
