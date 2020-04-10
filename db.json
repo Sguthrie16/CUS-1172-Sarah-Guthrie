@@ -39,7 +39,7 @@
       "question": "Which of the following ways can you change the look of an element",
       "options": {
         "optiona": "Style tag",
-        "optionb": "'style:'",
+        "optionb": "Style:",
         "optionc": "In line style",
         "optiond": "linking the style sheet"
       },
