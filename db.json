@@ -36,7 +36,7 @@
     {
       "id":4,
       "question_type": "Fill in",
-      "question": "How to divide leemnts on your page using bootstap",
+      "question": "How to divide elements on your page using bootstap",
       "correct_answers":"Using the grid",
       "explanation": "The grid allows you to divide up your page"
     },
