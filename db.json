@@ -20,8 +20,8 @@
       "options": {
         "optiona": ".\\Images_for_quiz\\Quiz2\\Answer_for_margin_auto.PNG",
         "optionb": ".\\Images_for_quiz\\Quiz2\\Option_for_margin_auto1.PNG",
-        "optionc": ".\\Images_for_quiz\\Quiz2\\Option_for_margin_auto1.PNG",
-        "optiond": ".\\Images_for_quiz\\Quiz2\\Option_for_margin_auto1.PNG"
+        "optionc": ".\\Images_for_quiz\\Quiz2\\Option_for_margin_auto2.PNG",
+        "optiond": ".\\Images_for_quiz\\Quiz2\\Option_for_margin_auto3.PNG"
       },
       "correct_answers":"Images_for_quiz/Quiz2/Answer_for_margin_auto.PNG",
       "explanation": "Margin:auto center the element on the page"
